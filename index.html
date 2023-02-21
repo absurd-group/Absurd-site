@@ -1,17 +1,40 @@
 <html>
     <head>
         <style>
+            @font-face {
+                font-family: pusab;
+                src: url(pusab.otf);
+            }
+            img {
+                width: 45%;
+            }
             marquee {
                 font-size: xx-large;
+                font-family: pusab;
+            }
+            .ThumbnailLeft {
+                left: 2.5%;
+            }
+            .ThumbnailRight {
+                right: 2.5%;
+            }
+            .Thumbnail {
+                background-image: url(assets/background.jpg);
+                left: 0;
             }
         </style>
     </head>
     <body>
-        <marquee scrollamount="1">
-            Welcome to absurd group. the best place for geometry dash games and experiences.
+        <marquee scrollamount="2", >
+            Welcome to absurd group. the best place for geometry dash games and experiences!
         </marquee>
-        <a href="https://www.roblox.com/games/6924002250/SONIC-WAVE-INFINITY-TYCOON">
-            <img src="https://tr.rbxcdn.com/439b89498373d31a688b030c277a8a54/768/432/Image/Png">
-        </a>
+        <div class="Thumbnail">
+            <a href="https://www.roblox.com/games/6924002250/SONIC-WAVE-INFINITY-TYCOON", class="ThumbnailLeft">
+                <img src="https://tr.rbxcdn.com/439b89498373d31a688b030c277a8a54/768/432/Image/Png">
+            </a>
+            <a href="https://www.roblox.com/games/7133279226/Adopt-and-Raise-Tartarus", class="ThumbnailRight">
+                <img src="https://tr.rbxcdn.com/f5f48fb7e3a6b883a280461e671f7192/768/432/Image/Png">
+            </a>
+        </div>
     </body>
 </html>
