@@ -79,6 +79,42 @@ body {
     border-radius: 25px;
     font-family: pusab;
     text-align: center;
-    color:#000000;
-    font-size: 45px;
+    color:#000;
+    font-size: 30px;
+}
+.aboutProfile {
+    color: white;
+    background-color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border-radius: 25px;
+    font-family: pusab;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 700px;
+    display:inline-table;
+    padding: 10px;
+}
+
+.aboutJoles {
+    background: linear-gradient(45deg, #ffa, #afa);
+}
+
+.aboutExoryn {
+    background: linear-gradient(45deg, #FF94F9 , #FFE87C);
+}
+
+.aboutTenebrism {
+    background: linear-gradient(45deg, #faa, #666);
+}
+
+.aboutBasiliotornado {
+    background: linear-gradient(45deg, rgba(28, 126, 255, 0.555), #fff);
+}
+
+.aboutGyro {
+    background: linear-gradient(45deg, #aaf, #faa);
 }
