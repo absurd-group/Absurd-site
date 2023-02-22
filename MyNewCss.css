@@ -1,7 +1,6 @@
-
 @font-face {
     font-family: pusab;
-    src: url(pusab.otf);
+    src: url(./Assets/pusab.otf);
 }
 
 marquee {
@@ -24,13 +23,20 @@ body {
     background-size: 100%;
 }
 
+.logo {
+    width:100%;
+}
+
+.thumbnailText {
+    font-size: 0px;
+}
+
 .thumbnail {
-    
+    font-size: 0px;
     border-radius: 25px;
     transition: border-radius 0.2s ease-in-out;
     padding-top: 10px;
     padding-left: 10px;
-    padding-bottom: 5px;
     width: 150px;
     height: 150px;
 }
@@ -53,9 +59,26 @@ body {
     background: linear-gradient(45deg, #55f, #f55);
     background-blend-mode: darken;
     border-radius: 25px;
-    margin-top: 50px;
-    margin-left: 45px;
-    margin-right: 45px;
-    margin-bottom: 50px;
+    margin: 50px;
     padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.information {
+    display: flex;
+    font-family: cursive;
+    color:#101;
+    justify-content: flex-end;
+}
+
+/* about.html */
+
+.infoText {
+    background: linear-gradient(45deg, #aaf, #faa);
+    background-blend-mode: darken;
+    border-radius: 25px;
+    font-family: pusab;
+    text-align: center;
+    color:#000000;
+    font-size: 45px;
 }
