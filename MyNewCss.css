@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: pusab;
+    src: url(pusab.otf);
+}
+
+marquee {
+    font-size: xx-large;
+    font-family: pusab;
+    color: #101;
+    stroke: white;
+    stroke-width: 1px;
+    background: linear-gradient(70deg, #55f, #f55);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-size: 100%;
+}
+
+.thumbnail {
+    
+    border-radius: 25px;
+    transition: border-radius 0.2s ease-in-out;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    width: 150px;
+    height: 150px;
+}
+.thumbnail:hover {
+    
+    border-radius: 50px;
+    transition: border-radius 0.2s ease-in-out;
+}
+
+@keyframes thumbnailhover {
+    from {
+        border-radius: 25px;
+    }
+    to {
+        border-radius: 50px;
+    }
+}
+
+.thumbnailDiv {
+    background: linear-gradient(45deg, #55f, #f55);
+    background-blend-mode: darken;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 50px;
+    padding-right: 10px;
+}
